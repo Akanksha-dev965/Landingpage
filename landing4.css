@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;1,700&family=Rubik:wght@500&display=swap');
+
+
+:root{
+    --main-color:#8e44ad;
+    --red:#e74c3c;
+    --orange:#f39c12;
+    --white:#fff;
+    --black:#000101;
+    --light-color:#888;
+    --light-bg:#D2D1D4;
+    --border:.1rem solid rgba(0,0,0,.2);
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+*::selection{
+    background-color: var(--main-color);
+    color:#fff;
+}
+
+*::-webkit-scrollbar{
+    height: .5rem;
+    width: 1rem;
+}
+
+*::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+
+html{
+    font-size:62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: var(--light-bg);
+}
+nav{
+    padding: .5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+background-color: var(--black);
+height: 5rem;
+display: inline-flexbox;
+}
+div{
+    display: inline-flex;
+}
+.Home{
+    
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.Aboutus{
+    color: white;
+    font-size: 3rem;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+.service{
+    color: white;
+    font-size: 3rem;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+.signup{
+    color: white;
+    font-size: 3rem;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+.contact{
+    color: white;
+    font-size: 3rem;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+.Home:active{
+    background-color: var(--light-color);
+}
+
+.signup:active{
+    background-color: var(--light-color);
+}
+.contact:active{
+    background-color: var(--light-color);
+}
+.Home:hover{
+    background-color: var(--light-color);
+}
+
+.signup:hover{
+    background-color: var(--light-color);
+}
+.contact:hover{
+    background-color: var(--light-color);
+}
+.Aboutus:active{
+    background-color: var(--light-color);
+}
+
+.service:active{
+    background-color: var(--light-color);
+}
+.Aboutus:hover{
+    background-color: var(--light-color);
+}
+.service:hover{
+    background-color: var(--light-color);
+}
+.search{
+    margin-left: 20rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 30rem;
+    height: 3.5rem;
+    font-size: 2rem;
+}
+.wishlist{
+    margin-left: 3rem;
+    font-size: 2rem;
+    color:white;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 8rem;
+    font-weight: bolder;
+    margin-left: 35rem;
+    margin-top: 30rem;
+}
